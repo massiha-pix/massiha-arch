@@ -1,0 +1,163 @@
+/* --- GLOBAL --- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0f0f0f;
+    color: #e6e6e6;
+}
+
+/* --- HEADER --- */
+header {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+header h2 {
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 300;
+    color: #bbbbbb;
+}
+
+/* --- NAVIGATION --- */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4ea3ff;
+}
+
+/* --- SECTIONS --- */
+section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* --- HERO --- */
+.hero {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 6px;
+    filter: brightness(0.85);
+}
+
+.hero h2 {
+    margin-top: 20px;
+    color: #e6e6e6;
+    font-weight: 300;
+}
+
+.project-card:hover {
+    background: #1e1e1e;
+    transform: translateY(-8px) scale(1.02); /* کارت کمی بالا می‌آید و بزرگ می‌شود */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* سایه برای عمق بیشتر */
+}
+
+.project-card {
+    background: #161616;
+    padding: 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background: #1e1e1e;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.project-card p {
+    color: #bbbbbb;
+}
+
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 80px;
+    font-size: 13px;
+    color: #777;
+    border-top: 1px solid #222;
+}
+/* استایل فرم تماس */
+.contact-section {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 173, 181, 0.2);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #00adb5;
+}
+
+.contact-form button {
+    background-color: #00adb5;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #007a80;
+    transform: scale(1.02);
+}
